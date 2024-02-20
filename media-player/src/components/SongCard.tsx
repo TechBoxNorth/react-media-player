@@ -4,7 +4,7 @@ import './SongCard.css/'
 function SongCard(){
     return (
         <>
-            <div className="container">
+            <div className="container hover">
                 <img src="" alt="" />
                 <div className="song-info">
                     <p className="artist">Artist Name</p>

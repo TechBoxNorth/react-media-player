@@ -1,12 +1,20 @@
 
 import './App.css'
-import SongCard from './components/SongCard.tsx'
+import Header from './components/Header.tsx'
+import PlayerView from './components/PlayerView.tsx'
+import SongsView from './components/SongsView.tsx'
 
-function App() {
+function App(){
 
   return (
     <>
-      <SongCard />
+      <div className="app-container">
+        <Header />
+        <div className="view-container">
+          <SongsView />
+          <PlayerView />
+        </div>
+      </div>
     </>
   )
 }

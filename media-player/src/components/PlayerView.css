@@ -1,0 +1,6 @@
+.player-container {
+    width: 50%;
+    height: auto;
+    background-color: blue;
+    border-left: 0.4rem solid lightblue;
+}
