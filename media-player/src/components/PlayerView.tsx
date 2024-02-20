@@ -4,7 +4,9 @@ function PlayerView(){
     return (
         <>
             <div className="player-container">
-                
+                <div className="song-art">
+                    <img className='song-img' src="" alt="" />
+                </div>
             </div>
         </>
     );

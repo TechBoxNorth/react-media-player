@@ -13,6 +13,8 @@ function SongsView(){
                 <SongCard />
                 <SongCard />
                 <SongCard />
+                <SongCard />
+                <SongCard />
             </div>
         </>
     );

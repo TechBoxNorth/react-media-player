@@ -1,5 +1,7 @@
 .songs-container {
     width: 50%;
+    height: 900px;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
