@@ -1,3 +1,4 @@
+import Controls from './Controls';
 import Duration from './Duration';
 import PlayerInfo from './PlayerInfo';
 import './PlayerView.css'
@@ -11,6 +12,7 @@ function PlayerView(){
                 </div>
                 <PlayerInfo />
                 <Duration />
+                <Controls />
             </div>
         </>
     );
