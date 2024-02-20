@@ -11,7 +11,7 @@ function SongCard(){
                     <p className="song">Song Name</p>
                 </div>
                 <div className="play-btn">
-                    <span className="material-symbols-outlined">play_circle</span>
+                    <span className="material-symbols-outlined md-48">play_circle</span>
                 </div>
             </div>
         </>
