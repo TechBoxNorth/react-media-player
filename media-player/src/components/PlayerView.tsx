@@ -1,3 +1,5 @@
+import Duration from './Duration';
+import PlayerInfo from './PlayerInfo';
 import './PlayerView.css'
 
 function PlayerView(){
@@ -7,6 +9,8 @@ function PlayerView(){
                 <div className="song-art">
                     <img className='song-img' src="" alt="" />
                 </div>
+                <PlayerInfo />
+                <Duration />
             </div>
         </>
     );

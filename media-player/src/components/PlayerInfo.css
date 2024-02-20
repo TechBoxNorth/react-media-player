@@ -1,0 +1,23 @@
+.player-info-container {
+    width: 80%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem auto;
+}
+
+.player-info-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.player-info-artist {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.player-info-song {
+    text-align: center;
+}
