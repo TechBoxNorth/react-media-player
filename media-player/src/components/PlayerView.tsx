@@ -8,7 +8,7 @@ function PlayerView(){
         <>
             <div className="player-container">
                 <div className="song-art">
-                    <img className='song-img' src="" alt="" />
+                    <img className='song-img' src="./src/assets/maid_of_orleans.jpg" alt="" />
                 </div>
                 <PlayerInfo />
                 <Duration />

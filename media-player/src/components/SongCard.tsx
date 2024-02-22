@@ -1,19 +1,21 @@
 
 import './SongCard.css/'
 
-function SongCard(){
-    
-    let imgPath:string = '';
-    let artist:string = '';
-    let song:string = '';
+interface ISongCardProps {
+    art:string;
+    artist:string;
+    song:string;
+}
+
+function SongCard(props:ISongCardProps){
     
     return (
         <>
             <div className="container hover">
-                <img src={imgPath} alt="" />
+                <img src={props.art} alt="" />
                 <div className="song-info">
-                    <p className="artist">{artist}</p>
-                    <p className="song">{song}</p>
+                    <p className="artist">{props.artist}</p>
+                    <p className="song">{props.song}</p>
                 </div>
                 <div className="play-btn">
                     <span className="material-symbols-outlined md-48">play_circle</span>

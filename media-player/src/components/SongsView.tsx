@@ -44,6 +44,21 @@ function SongsView(){
             'art': './src/assets/pocket_calculator.png',
             'artist': 'Kraftwerk',
             'song': 'Pocket Calculator'
+        },
+        {
+            'art': './src/assets/doctor.jpg',
+            'artist': 'Thompson Twins',
+            'song': 'Doctor Doctor'
+        },
+        {
+            'art': './src/assets/never.jpg',
+            'artist': 'The Assembly',
+            'song': 'Never Never'
+        },
+        {
+            'art': './src/assets/sounds-like-a-melody.jpg',
+            'artist': 'Aplhaville',
+            'song': 'Sounds like a melody'
         }
     ]
     
@@ -54,7 +69,7 @@ function SongsView(){
         <>
             <div className="songs-container">
                 {
-                    songObjects.map(() => <SongCard />)
+                    songObjects.map((song) => <SongCard art={song.art} artist={song.artist} song={song.song} />)
                 }
             </div>
         </>
